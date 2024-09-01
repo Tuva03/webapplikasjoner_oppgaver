@@ -1,13 +1,12 @@
-const readline = require("readline")
+const readline = require("readline");
 
 const r1 = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-})
+  input: process.stdin,
+  output: process.stdout,
+});
 
-const value1 = "10"
-
-r1.question("Skriv et tall: ", (value2) => {
-    console.log(Number(value1) + Number(value2))
-    r1.close()
-})
+r1.question("Skriv to tallverdier, med mellomrom: ", (input) => {
+  const [value1, value2] = input.split(" ");
+  console.log(Number(value1) + Number(value2));
+  r1.close();
+});

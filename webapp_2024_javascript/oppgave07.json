@@ -1,0 +1,30 @@
+[
+  {
+    "isbn": "123456789",
+    "title": "Typical book",
+    "catergory": "Crime"
+  },
+  {
+    "isbn": "456789123",
+    "title": "Cool book",
+    "catergory": "Crime"
+  },
+  {
+    "isbn": "678912345",
+    "title": "Interesting book",
+    "catergory": "Fantasy"
+  },
+
+  {
+    "isbn": "123456789",
+    "price": "150kr"
+  },
+  {
+    "isbn": "456789123",
+    "price": "200kr"
+  },
+  {
+    "isbn": "678912345",
+    "price": "129kr"
+  }
+]
